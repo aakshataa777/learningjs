@@ -49,3 +49,12 @@ function isPrime(number){
       console.log('this word is not a palindrome');
     }
     
+    function primeNotPrime(string){
+        let myArray=string.split('');
+        isPrime(myArray.length)
+        return isPrime(myArray.length);
+      }
+      
+      let string=prompt('enter a word');
+      primeNotPrime(string);
+      console.log(primeNotPrime(string));

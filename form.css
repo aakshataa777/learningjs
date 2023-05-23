@@ -1,0 +1,14 @@
+body {
+    background-color: lightblue;
+  }
+form {
+background-color: greenyellow;
+margin: auto;
+  width: 20%;
+  border: 3px outset green;
+  padding: 10px;
+}
+.error{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
